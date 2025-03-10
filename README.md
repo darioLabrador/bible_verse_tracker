@@ -10,5 +10,8 @@ Requirements:
 Install:
 `pip install customtkinter`
 
+(Not sure why but having issues with interpreter)
+
+
 Update:
 `pip install customtkinter --upgrade`

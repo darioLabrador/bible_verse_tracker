@@ -14,7 +14,7 @@ root_tk = Tk()
 customtkinter.set_default_color_theme("assets/themes/dark-blue.json")
 
 # Appearance Mode
-customtkinter.set_appearance_mode("dark")
+customtkinter.set_appearance_mode("system")
 
 # Buttons
 button1 = customtkinter.CTkButton(root_tk, fg_color="dark-purple")

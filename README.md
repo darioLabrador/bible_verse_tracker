@@ -8,10 +8,12 @@ Bible Verse Tracker Project to keep record of personal scripture
 
 Requirements:
 Install:
-`pip install customtkinter`
+* `pip install customtkinter`
+* `pip install pyinstaller`
+    * `pyinstaller --noconfirm --onedir --windowed --add-data "<CustomTkinter Location>/customtkinter;customtkinter/"  "<Path to Python Script>"`
 
-(Not sure why but having issues with interpreter)
+    **Dario**:Currently trying to set up pyinstaller for packaging
 
 
 Update:
-`pip install customtkinter --upgrade`
+* `pip install customtkinter --upgrade`

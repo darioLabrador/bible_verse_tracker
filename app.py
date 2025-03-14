@@ -15,9 +15,6 @@ class myButton(customtkinter.CTkButton):
 class MyTabView(customtkinter.CTkTabview):
     def __init__(self, master, **kwargs):
         super().__init__(master, **kwargs)
-        
-        # add widgets on tabs
-        self.label.grid(row=0, column=0, padx=100, pady=100)
 
 # Main        
 class App(customtkinter.CTk):

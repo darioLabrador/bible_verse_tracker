@@ -1,7 +1,7 @@
 # Imports
 import customtkinter as customtkinter
 from tkinter import *
-import main
+import app
 import functions
 
 # Main window
@@ -17,7 +17,7 @@ customtkinter.set_default_color_theme("assets/themes/dark-blue.json")
 customtkinter.set_appearance_mode("system")
 
 # Buttons
-button1 = customtkinter.CTkButton(root_tk, fg_color="dark-purple")
-button2 = customtkinter.CTkButton(root_tk, fg_color="dark-purple")
-button3 = customtkinter.CTkButton(root_tk, fg_color="dark-purple")
+button1 = customtkinter.CTkButton(root_tk, fg_color="purple")
+button2 = customtkinter.CTkButton(root_tk, fg_color="purple")
+button3 = customtkinter.CTkButton(root_tk, fg_color="purple")
 
